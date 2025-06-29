@@ -4,6 +4,7 @@ greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 QT += core gui network widgets
 
+QT += qml quick quickcontrols2
 
 CONFIG += c++17
 
@@ -15,11 +16,13 @@ TARGET = WeatherApp
 TEMPLATE = app
 
 SOURCES += \
+    cachemanager.cpp \
     main.cpp \
     networkmanager.cpp \
     weathermanager.cpp
 
 HEADERS += \
+    cachemanager.h \
     networkmanager.h \
     weathermanager.h
 

@@ -1,5 +1,18 @@
 <RCC>
     <qresource prefix="/icons">
         <file>img/image1.png</file>
+        <file>img/raindrop.png</file>
+        <file>img/snowflake.png</file>
     </qresource>
+    <qresource prefix="/qml">
+        <file>components/LightTheme.qml</file>
+        <file>components/DarkTheme.qml</file>
+        <file>components/SunComponent.qml</file>
+        <file>components/RainComponent.qml</file>
+        <file>components/SnowComponent.qml</file>
+        <file>components/CloudsComponent.qml</file>
+        <file>components/WeatherIcon.qml</file>
+        <file>components/OvercastComponent.qml</file>
+    </qresource>
+    <qresource prefix="/"/>
 </RCC>
